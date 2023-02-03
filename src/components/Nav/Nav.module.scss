@@ -1,0 +1,30 @@
+.nav_wrapper {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 1440px;
+    transform: translateX(-50%);
+    padding: 30px 20px;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+}
+
+a {
+    border: 2px solid blue;
+    border-radius: 4px;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        background-color: rgb(91, 91, 209);
+        color: white;
+    }
+}
