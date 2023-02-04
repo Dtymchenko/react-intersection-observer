@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import ImgSection from "./../components/ImgSection";
+import ImgSection from "./../components/ImgSection/ImgSection";
 
 const Image = () => {
   const [images, setImages] = React.useState([]);

@@ -1,0 +1,16 @@
+.text {
+    height: 1000px;
+    padding: 20px;
+    background-color: yellow;
+    font-size: 30px;
+    line-height: 150%;
+        p + p {
+            margin-top: 20px;
+        }
+}
+.video {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

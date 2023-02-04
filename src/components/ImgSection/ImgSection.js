@@ -13,7 +13,7 @@ const ImgSection = ({ el }) => {
     <div ref={ref} className={styles.section}>
       <p>{el.title}</p>
       <img
-        src={el.id < 5 ? el.url : inView && el.url}
+        src={el.id < 5 ? el.url : inView ? el.url : ''}
         alt="img"
         width={600}
         height={600}
