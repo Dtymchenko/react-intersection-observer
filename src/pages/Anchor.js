@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import AnchorMenu from "../components/AnchorMenu/AnchorMenu";
 
 const Anchor = () => {
   return (
     <div>
-      Anchor
+      <AnchorMenu />
     </div>
-  )
-}
+  );
+};
 
-export default Anchor
+export default Anchor;

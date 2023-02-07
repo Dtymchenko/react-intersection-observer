@@ -6,7 +6,7 @@ const VideoPlayer = () => {
   const videoRef = React.useRef(null);
 
   const { ref, inView } = useInView({
-    threshold: 0,
+    threshold: [0.5],
   });
 
   const handlePlay = React.useEffect(() => {
